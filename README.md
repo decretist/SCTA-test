@@ -15,8 +15,14 @@ https://github.com/scta/scta-projectfiles/blob/master/gd13aa.xml
 
 ---
 
-GitHub repository for second recension of Gratian's Decretum:
+GitHub repository for second recension of Gratian's *Decretum*
 
-git@github.com:scta-texts/gratiandecretum.git
+https://github.com/scta-texts/gratiandecretum.git
 
 https://github.com/scta/scta-projectfiles/blob/master/gd-gratiandecretum.xml
+
+---
+
+http://community.scta.info/pages/lombardpress-schema-critical.html
+https://github.com/lombardpress/lombardpress-schema/issues
+
