@@ -3,7 +3,8 @@
 A temporary repository to experiment with encoding Gratian's
 *Decretum* in Jeffrey Witt's SCTA schema.
 
-First test: can I use CETEIcean to view files?
+First test: can I use CETEIcean to view files?  
+Answer: yes.
 
 ---
 
@@ -23,6 +24,6 @@ https://github.com/scta/scta-projectfiles/blob/master/gd-gratiandecretum.xml
 
 ---
 
-http://community.scta.info/pages/lombardpress-schema-critical.html
-https://github.com/lombardpress/lombardpress-schema/issues
+http://community.scta.info/pages/lombardpress-schema-critical.html  
+https://github.com/lombardpress/lombardpress-schema/issues  
 
