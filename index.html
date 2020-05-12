@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>SCTA test</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/CETEIcean.css"/>
+    <script src="js/CETEI.js"></script>
+  </head>
+  <body>
+    <div id="TEI"></div>
+    <script>
+      var CETEIcean = new CETEI()
+      CETEIcean.getHTML5("data/gd13aa-d1e1773.xml", function(data) {
+        document.getElementById("TEI").appendChild(data)
+      })
+    </script>
+    <p style="font-family: Arvo">(powered by &#x1F433;
+    <a href="https://github.com/TEIC/CETEIcean">CETEIcean</a>)</p>
+  </body>
+</html>
