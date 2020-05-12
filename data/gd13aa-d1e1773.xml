@@ -8,6 +8,10 @@
         <title>Decretum Gratiani</title>
         <author>Gratian, active 12th century</author>
           <editor>Paul Evans</editor>
+        <respStmt>
+          <resp>transcribed by</resp>
+          <name>Emily Bolender</name>
+        </respStmt>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
@@ -15,7 +19,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Scholastic Commentaries and Texts Archive Project</authority>
+        <authority>Scholastic Commentaries and Texts Archive</authority>
         <availability status="free">
           <p>This work is licensed under a <ref target="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</ref>.</p>
         </availability>
@@ -66,7 +70,11 @@
   </teiHeader>
   <text type="diplomatic" xml:lang="la">
     <front>
-      <div xml:id="starts-on"/>
+      <div xml:id="starts-on">
+        <pb ed="P" n="126-v" type="folio"/>
+        <cb ed="P" n="b"/>
+        <lb ed="P" n="19"/>
+      <div/>
     </front>
     <body>
       <div xml:id="gd13aa-d1e1773"> <!-- start C.4 d.init. -->
@@ -76,13 +84,26 @@
         sue cause adducit. Prohibitus ab accusatione adolescentem accusatorem,
         et se testem facit. Adolescens personam accusatoris et testis gerere
         cupit, di statuta ad iudicium electorum iudicium episcopus minime
-        concurrit a co[mmun]io[n]e suspendere, tandem renouato iudicio,
+        concurrit a
+        <expan>
+          <abbr>cōiōe</abbr>
+          <ex>communione</ex>
+        </expan>
+        suspendere, tandem renouato iudicio,
         accusator culpabilis in accusatione inuenitur, demum ad assertionem
         proprie cause procedit. Hic primum queritur an in excommunicatione
-        constitutus alium accusare ualeat. Secundo autem infra i[nfra]
+        constitutus alium accusare ualeat. Secundo autem infra
+        <expan>
+          <abbr>i</abbr>
+          <ex>infra</ex>
+        </expan>
         xiiiium. annum in criminari causa testari, quis possit. Tercio, utrum
         accusatione prohibitus personam testificantis possit assumere. Quarto,
-        aut [?] die constituta non occurrens a communione sit remouendus.
+        <choice>
+          <sic>aut</sic>
+          <corr>an></corr>
+        </choice>
+        die constituta non occurrens a communione sit remouendus.
         Sexto, si in episcoporum indicio accusatoris persona culpabilis
         inuenta fuerit, an ad assertionem proprie cause, de cetero sit
         admittenda.</p>
